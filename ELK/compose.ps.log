@@ -1,0 +1,5 @@
+﻿NAME            IMAGE                                                 COMMAND                   SERVICE         CREATED          STATUS                    PORTS
+apm-server      docker.elastic.co/apm/apm-server:9.2.3                "/usr/share/apm-serv??   apm-server      19 minutes ago   Up 18 minutes             0.0.0.0:8200->8200/tcp, [::]:8200->8200/tcp
+elasticsearch   docker.elastic.co/elasticsearch/elasticsearch:9.2.3   "/bin/tini -- /usr/l??   elasticsearch   19 minutes ago   Up 19 minutes (healthy)   0.0.0.0:9200->9200/tcp, [::]:9200->9200/tcp, 0.0.0.0:9300->9300/tcp, [::]:9300->9300/tcp
+kibana          docker.elastic.co/kibana/kibana:9.2.3                 "/bin/tini -- /usr/l??   kibana          3 minutes ago    Up 3 minutes              0.0.0.0:5601->5601/tcp, [::]:5601->5601/tcp
+logstash        docker.elastic.co/logstash/logstash:9.2.3             "/usr/local/bin/dock??   logstash        19 minutes ago   Up 19 minutes             0.0.0.0:5044->5044/tcp, [::]:5044->5044/tcp

@@ -1,0 +1,200 @@
+﻿kibana  | [2026-01-09T18:12:45.121+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Installing component template .kibana-siem-rule-migrations-rules
+kibana  | [2026-01-09T18:12:45.122+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Installing component template .kibana-siem-rule-migrations-resources
+kibana  | [2026-01-09T18:12:45.123+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Installing component template .kibana-siem-rule-migrations-migrations
+kibana  | [2026-01-09T18:12:45.124+00:00][INFO ][plugins.securitySolution.siemDashboardMigrations] Installing component template .kibana-siem-dashboard-migrations-dashboards
+kibana  | [2026-01-09T18:12:45.125+00:00][INFO ][plugins.securitySolution.siemDashboardMigrations] Installing component template .kibana-siem-dashboard-migrations-migrations
+kibana  | [2026-01-09T18:12:45.127+00:00][INFO ][plugins.securitySolution.siemDashboardMigrations] Installing component template .kibana-siem-dashboard-migrations-resources
+kibana  | [2026-01-09T18:12:45.135+00:00][INFO ][plugins.elasticAssistant.service] Installing component template .kibana-elastic-ai-assistant-component-template-conversations
+kibana  | [2026-01-09T18:12:45.136+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Installing component template .kibana-siem-rule-migrations-integrations
+kibana  | [2026-01-09T18:12:45.137+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Installing component template .kibana-siem-rule-migrations-prebuiltrules
+kibana  | [2026-01-09T18:12:45.437+00:00][INFO ][plugins.taskManager] Kibana Discovery Service has been started
+kibana  | [2026-01-09T18:12:45.526+00:00][WARN ][plugins.cases.incremental_id_task] Could not check status of cases:cases_incremental_id_assignment, will continue scheduling it.
+kibana  | [2026-01-09T18:12:45.874+00:00][INFO ][plugins.monitoring.monitoring.kibana-monitoring] Starting monitoring stats collection
+kibana  | [2026-01-09T18:12:51.493+00:00][INFO ][http.server.Kibana] http server running at http://0.0.0.0:5601
+kibana  | [2026-01-09T18:12:51.522+00:00][INFO ][plugins.cases.incremental_id_task] cases:cases_incremental_id_assignment scheduled with interval 10m
+kibana  | [2026-01-09T18:12:51.525+00:00][INFO ][plugins.fleet] Task Fleet-Usage-Logger-Task scheduled with interval 15m
+kibana  | [2026-01-09T18:12:51.551+00:00][INFO ][plugins.slo.lock-manager] Component template .kibana_locks-component created or updated successfully.
+kibana  | [2026-01-09T18:12:51.613+00:00][INFO ][plugins.securitySolution.health-diagnostic] Task scheduled
+kibana  | [2026-01-09T18:12:51.642+00:00][INFO ][plugins.taskManager] Starting the task poller
+kibana  | [2026-01-09T18:12:51.712+00:00][INFO ][plugins.reporting.store] Creating ILM policy for reporting data stream: kibana-reporting
+kibana  | [2026-01-09T18:12:51.729+00:00][INFO ][plugins.telemetry] Telemetry collection is enabled. For more information on telemetry settings, refer to https://www.elastic.co/docs/reference/kibana/configuration-reference/telemetry-settings.
+kibana  | [2026-01-09T18:12:51.742+00:00][INFO ][plugins.productDocBase.doc-manager] Updating product documentation to latest version for Inference IDs:
+kibana  | [2026-01-09T18:12:51.899+00:00][INFO ][plugins.fleet.endpoint.agentPolicyLicenseWatch] Checking agent policies for compliance with the current license.
+kibana  | [2026-01-09T18:12:52.039+00:00][INFO ][plugins.securitySolution.siemDashboardMigrations] Installing index template .kibana-siem-dashboard-migrations-migrations
+kibana  | [2026-01-09T18:12:52.041+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Installing index template .kibana-siem-rule-migrations-rules
+kibana  | [2026-01-09T18:12:52.050+00:00][INFO ][plugins.securitySolution.siemDashboardMigrations] Installing index template .kibana-siem-dashboard-migrations-dashboards
+kibana  | [2026-01-09T18:12:52.054+00:00][INFO ][plugins.elasticAssistant.service] Installing index template .kibana-elastic-ai-assistant-index-template-conversations
+kibana  | [2026-01-09T18:12:52.058+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Installing index template .kibana-siem-rule-migrations-integrations
+kibana  | [2026-01-09T18:12:52.069+00:00][INFO ][plugins.ecsDataQualityDashboard] Installing index template .kibana-data-quality-dashboard-results-index-template
+kibana  | [2026-01-09T18:12:52.074+00:00][INFO ][plugins.securitySolution.siemDashboardMigrations] Installing index template .kibana-siem-dashboard-migrations-resources
+kibana  | [2026-01-09T18:12:52.078+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Installing index template .kibana-siem-rule-migrations-prebuiltrules
+kibana  | [2026-01-09T18:12:52.084+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Installing index template .kibana-siem-rule-migrations-resources
+kibana  | [2026-01-09T18:12:52.087+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Installing index template .kibana-siem-rule-migrations-migrations
+kibana  | [2026-01-09T18:12:52.146+00:00][INFO ][plugins.securitySolution] Installing component template .edr-workflow-insights-component-template
+kibana  | [2026-01-09T18:12:52.220+00:00][INFO ][plugins.slo.lock-manager] Index template .kibana_locks-index-template created or updated successfully.
+kibana  | [2026-01-09T18:12:52.258+00:00][INFO ][status.plugins.alerting] alerting plugin is now available: Alerting is (probably) ready
+kibana  | [2026-01-09T18:12:52.259+00:00][INFO ][status.plugins.fleet] fleet plugin is now available: Fleet is setting up
+kibana  | [2026-01-09T18:12:52.260+00:00][INFO ][status.plugins.licensing] licensing plugin is now available: License fetched
+kibana  | [2026-01-09T18:12:52.261+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+kibana  | [2026-01-09T18:12:52.284+00:00][INFO ][plugins.reporting.store] Linking ILM policy to reporting data stream: .kibana-reporting, component template: kibana-reporting@custom
+kibana  | [2026-01-09T18:12:52.369+00:00][INFO ][status] Kibana is now available
+kibana  | [2026-01-09T18:12:52.383+00:00][INFO ][plugins.eventLog] Installing index template .kibana-event-log-template
+kibana  | [2026-01-09T18:12:52.572+00:00][INFO ][plugins.fleet.endpoint.agentPolicyLicenseWatch] All agent policies are compliant, nothing to do!
+kibana  | [2026-01-09T18:12:52.685+00:00][INFO ][plugins.securitySolution] Installing index template .edr-workflow-insights-index-template
+kibana  | [2026-01-09T18:12:52.740+00:00][INFO ][plugins.securitySolution.entityAnalytics.migration] Skipping migration for Privileged Monitoring Entity Source.
+kibana  | [2026-01-09T18:12:52.760+00:00][INFO ][plugins.securitySolution.entityAnalytics.migration] No privilege monitoring engine descriptor found. Skipping migration.
+kibana  | [2026-01-09T18:12:52.781+00:00][INFO ][plugins.observabilityAIAssistant.lock-manager] Component template .kibana_locks-component created or updated successfully.
+kibana  | [2026-01-09T18:12:52.785+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Updating indices - .kibana-siem-rule-migrations-rules-*
+kibana  | [2026-01-09T18:12:52.792+00:00][INFO ][plugins.securitySolution.siemDashboardMigrations] Updating indices - .kibana-siem-dashboard-migrations-dashboards-*
+kibana  | [2026-01-09T18:12:52.809+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Creating index - .kibana-siem-rule-migrations-integrations
+kibana  | [2026-01-09T18:12:52.814+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Updating indices - .kibana-siem-rule-migrations-resources-*
+kibana  | [2026-01-09T18:12:52.867+00:00][INFO ][plugins.eventLog] Creating datastream .kibana-event-log-ds
+kibana  | [2026-01-09T18:12:52.927+00:00][INFO ][plugins.securitySolution.siemDashboardMigrations] Updating indices - .kibana-siem-dashboard-migrations-migrations-*
+kibana  | [2026-01-09T18:12:52.945+00:00][INFO ][plugins.securitySolution.siemDashboardMigrations] Updating indices - .kibana-siem-dashboard-migrations-resources-*
+kibana  | [2026-01-09T18:12:52.964+00:00][INFO ][plugins.elasticAssistant.service] Updating data streams - .kibana-elastic-ai-assistant-conversations-*
+kibana  | [2026-01-09T18:12:52.984+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Updating indices - .kibana-siem-rule-migrations-migrations-*
+kibana  | [2026-01-09T18:12:53.057+00:00][WARN ][plugins.elasticAssistant.service] Error initializing AI assistant resources: Platinum, Enterprise or trial license needed
+kibana  | [2026-01-09T18:12:53.108+00:00][INFO ][plugins.fleet.fleet:check-deleted-files-task:1.0.1] [runTask()] started
+kibana  | [2026-01-09T18:12:53.135+00:00][INFO ][plugins.fleet] Running Fleet Usage telemetry send task
+kibana  | [2026-01-09T18:12:53.346+00:00][INFO ][plugins.fleet.fleet:check-deleted-files-task:1.0.1] [runTask()] ended: no files to process
+kibana  | [2026-01-09T18:12:53.364+00:00][WARN ][plugins.fleet] Error while trying to load prerelease flag from settings, defaulting to false
+kibana  | [2026-01-09T18:12:53.585+00:00][INFO ][plugins.fleet.fleet:auto-install-content-packages-task:1.0.3] [AutoInstallContentPackagesTask] Fetched content packages discovery map: {"kubeletstatsreceiver.otel":{"packages":[{"name":"kubernetes_otel","version":"1.4.0"}]},"k8sobjectsreceiver.otel":{"packages":[{"name":"kubernetes_otel","version":"1.4.0"}]},"k8seventsreceiver.otel":{"packages":[{"name":"kubernetes_otel","version":"1.4.0"}]},"k8sclusterreceiver.otel":{"packages":[{"name":"kubernetes_otel","version":"1.4.0"}]}}
+kibana  | [2026-01-09T18:12:53.612+00:00][INFO ][plugins.fleet.fleet:auto-install-content-packages-task:1.0.3] [AutoInstallContentPackagesTask] Found datasets with data:
+kibana  | [2026-01-09T18:12:53.768+00:00][INFO ][plugins.fleet.lock-manager] Component template .kibana_locks-component created or updated successfully.
+kibana  | [2026-01-09T18:12:53.798+00:00][INFO ][plugins.ecsDataQualityDashboard] Updating data streams - .kibana-data-quality-dashboard-results-*
+kibana  | [2026-01-09T18:12:53.803+00:00][INFO ][plugins.securitySolution.siemRuleMigrations] Creating index - .kibana-siem-rule-migrations-prebuiltrules
+kibana  | [2026-01-09T18:12:53.823+00:00][INFO ][plugins.securitySolution] Updating data streams - .edr-workflow-insights-*
+kibana  | [2026-01-09T18:12:53.829+00:00][INFO ][plugins.observabilityAIAssistant.lock-manager] Index template .kibana_locks-index-template created or updated successfully.
+kibana  | [2026-01-09T18:12:54.235+00:00][INFO ][plugins.fleet.fleet:upgrade-agentless-deployments-task:1.0.0] [runTask()] started
+kibana  | [2026-01-09T18:12:54.276+00:00][INFO ][plugins.fleet.fleet:policy-revisions-cleanup-task:1.0.0] [FleetPolicyRevisionsCleanupTask] No policies found with more than 10 revisions. Exiting cleanup task.
+kibana  | [2026-01-09T18:12:54.287+00:00][INFO ][plugins.fleet.fleet:upgrade-agentless-deployments-task:1.0.0] [[UpgradeAgentlessDeploymentsTask]] running task to upgrade agentless deployments with kuery: fleet-agent-policies.supports_agentless: true
+kibana  | [2026-01-09T18:12:54.324+00:00][INFO ][plugins.fleet.fleet:upgrade-agentless-deployments-task:1.0.0] [UpgradeAgentlessDeploymentsTask] [runTask()] finished
+kibana  | [2026-01-09T18:12:54.873+00:00][INFO ][plugins.fleet.lock-manager] Index template .kibana_locks-index-template created or updated successfully.
+kibana  | [2026-01-09T18:12:55.105+00:00][INFO ][plugins.slo.lock-manager] Index .kibana_locks-000001 created successfully.
+kibana  | [2026-01-09T18:12:55.280+00:00][INFO ][plugins.observabilityAIAssistant] Knowledge base index does not exist. Aborting updating index assets
+kibana  | [2026-01-09T18:12:55.718+00:00][INFO ][plugins.securitySolution.telemetry_events.sender.task.configuration] Updating sender channels configuration
+kibana  | [2026-01-09T18:12:56.215+00:00][INFO ][plugins.securitySolution.telemetry_events.sender.task] Running ingest stats task
+kibana  | [2026-01-09T18:12:56.237+00:00][INFO ][plugins.securitySolution.telemetry_events.sender.task] Got ingest stats, about to publish EBT events
+kibana  | [2026-01-09T18:12:56.239+00:00][INFO ][plugins.securitySolution.telemetry_events.sender.task.indices-metadata] Ingest stats task completed
+kibana  | [2026-01-09T18:12:56.259+00:00][INFO ][plugins.securitySolution.telemetry_events.sender.task.indices-metadata] Sent data streams
+kibana  | [2026-01-09T18:12:56.260+00:00][INFO ][plugins.securitySolution.telemetry_events.sender.task.indices-metadata] Sent indices settings
+kibana  | [2026-01-09T18:12:56.286+00:00][INFO ][plugins.securitySolution.telemetry_events.sender.task.indices-metadata] Sent indices stats
+kibana  | [2026-01-09T18:12:56.302+00:00][INFO ][plugins.securitySolution.telemetry_events.sender.task.indices-metadata] Sent ILM stats
+kibana  | [2026-01-09T18:12:56.319+00:00][INFO ][plugins.securitySolution.telemetry_events.sender.task.indices-metadata] Sent ILM policies
+kibana  | [2026-01-09T18:12:56.320+00:00][INFO ][plugins.securitySolution.telemetry_events.sender.task.indices-metadata] Sent index templates
+kibana  | [2026-01-09T18:12:56.321+00:00][INFO ][plugins.securitySolution.telemetry_events.sender.task.indices-metadata] Sent EBT events
+kibana  | [2026-01-09T18:12:56.936+00:00][INFO ][plugins.fleet] Beginning fleet setup
+kibana  | [2026-01-09T18:12:56.937+00:00][INFO ][plugins.fleet] Cleaning old indices
+kibana  | [2026-01-09T18:12:56.963+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"inactive":0,"unenrolled":0,"num_host_urls":0},"license_issued_to":"docker-cluster"}
+kibana  | [2026-01-09T18:12:58.320+00:00][WARN ][plugins.fleet] Fleet setup attempt 1 failed, will retry after backoff FleetEncryptedSavedObjectEncryptionKeyRequired: Agent binary source needs encrypted saved object api key to be set
+kibana  |     at DownloadSourceService.create (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:88:13)
+kibana  |     at DownloadSourceService.ensureDefault (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:235:25)
+kibana  |     at processTicksAndRejections (node:internal/process/task_queues:105:5)
+kibana  |     at createSetupSideEffects (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup.js:94:33)
+kibana  |     at awaitIfPending (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup_utils.js:35:20)
+kibana  |     at withLock (/usr/share/kibana/node_modules/@kbn/lock-manager/src/lock_manager_client.js:272:12)
+kibana  |     at RetryOperation._fn (/usr/share/kibana/node_modules/p-retry/index.js:50:12)
+kibana  | [2026-01-09T18:12:58.938+00:00][INFO ][plugins.fleet] Beginning fleet setup
+kibana  | [2026-01-09T18:12:58.939+00:00][INFO ][plugins.fleet] Cleaning old indices
+kibana  | [2026-01-09T18:12:59.361+00:00][WARN ][plugins.fleet] Fleet setup attempt 2 failed, will retry after backoff FleetEncryptedSavedObjectEncryptionKeyRequired: Agent binary source needs encrypted saved object api key to be set
+kibana  |     at DownloadSourceService.create (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:88:13)
+kibana  |     at DownloadSourceService.ensureDefault (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:235:25)
+kibana  |     at processTicksAndRejections (node:internal/process/task_queues:105:5)
+kibana  |     at createSetupSideEffects (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup.js:94:33)
+kibana  |     at awaitIfPending (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup_utils.js:35:20)
+kibana  |     at withLock (/usr/share/kibana/node_modules/@kbn/lock-manager/src/lock_manager_client.js:272:12)
+kibana  |     at RetryOperation._fn (/usr/share/kibana/node_modules/p-retry/index.js:50:12)
+kibana  | [2026-01-09T18:13:00.025+00:00][INFO ][plugins.fleet] Beginning fleet setup
+kibana  | [2026-01-09T18:13:00.025+00:00][INFO ][plugins.fleet] Cleaning old indices
+kibana  | [2026-01-09T18:13:00.556+00:00][WARN ][plugins.fleet] Fleet setup attempt 3 failed, will retry after backoff FleetEncryptedSavedObjectEncryptionKeyRequired: Agent binary source needs encrypted saved object api key to be set
+kibana  |     at DownloadSourceService.create (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:88:13)
+kibana  |     at DownloadSourceService.ensureDefault (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:235:25)
+kibana  |     at processTicksAndRejections (node:internal/process/task_queues:105:5)
+kibana  |     at createSetupSideEffects (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup.js:94:33)
+kibana  |     at awaitIfPending (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup_utils.js:35:20)
+kibana  |     at withLock (/usr/share/kibana/node_modules/@kbn/lock-manager/src/lock_manager_client.js:272:12)
+kibana  |     at RetryOperation._fn (/usr/share/kibana/node_modules/p-retry/index.js:50:12)
+kibana  | [2026-01-09T18:13:04.859+00:00][INFO ][plugins.fleet] Beginning fleet setup
+kibana  | [2026-01-09T18:13:04.860+00:00][INFO ][plugins.fleet] Cleaning old indices
+kibana  | [2026-01-09T18:13:04.998+00:00][WARN ][plugins.fleet] Fleet setup attempt 4 failed, will retry after backoff FleetEncryptedSavedObjectEncryptionKeyRequired: Agent binary source needs encrypted saved object api key to be set
+kibana  |     at DownloadSourceService.create (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:88:13)
+kibana  |     at DownloadSourceService.ensureDefault (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:235:25)
+kibana  |     at processTicksAndRejections (node:internal/process/task_queues:105:5)
+kibana  |     at createSetupSideEffects (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup.js:94:33)
+kibana  |     at awaitIfPending (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup_utils.js:35:20)
+kibana  |     at withLock (/usr/share/kibana/node_modules/@kbn/lock-manager/src/lock_manager_client.js:272:12)
+kibana  |     at RetryOperation._fn (/usr/share/kibana/node_modules/p-retry/index.js:50:12)
+kibana  | [2026-01-09T18:13:06.265+00:00][INFO ][plugins.fleet] Beginning fleet setup
+kibana  | [2026-01-09T18:13:06.265+00:00][INFO ][plugins.fleet] Cleaning old indices
+kibana  | [2026-01-09T18:13:06.337+00:00][WARN ][plugins.fleet] Fleet setup attempt 5 failed, will retry after backoff FleetEncryptedSavedObjectEncryptionKeyRequired: Agent binary source needs encrypted saved object api key to be set
+kibana  |     at DownloadSourceService.create (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:88:13)
+kibana  |     at DownloadSourceService.ensureDefault (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:235:25)
+kibana  |     at processTicksAndRejections (node:internal/process/task_queues:105:5)
+kibana  |     at createSetupSideEffects (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup.js:94:33)
+kibana  |     at awaitIfPending (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup_utils.js:35:20)
+kibana  |     at withLock (/usr/share/kibana/node_modules/@kbn/lock-manager/src/lock_manager_client.js:272:12)
+kibana  |     at RetryOperation._fn (/usr/share/kibana/node_modules/p-retry/index.js:50:12)
+kibana  | [2026-01-09T18:13:12.507+00:00][INFO ][plugins.fleet] Beginning fleet setup
+kibana  | [2026-01-09T18:13:12.507+00:00][INFO ][plugins.fleet] Cleaning old indices
+kibana  | [2026-01-09T18:13:12.580+00:00][WARN ][plugins.fleet] Fleet setup attempt 6 failed, will retry after backoff FleetEncryptedSavedObjectEncryptionKeyRequired: Agent binary source needs encrypted saved object api key to be set
+kibana  |     at DownloadSourceService.create (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:88:13)
+kibana  |     at DownloadSourceService.ensureDefault (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:235:25)
+kibana  |     at processTicksAndRejections (node:internal/process/task_queues:105:5)
+kibana  |     at createSetupSideEffects (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup.js:94:33)
+kibana  |     at awaitIfPending (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup_utils.js:35:20)
+kibana  |     at withLock (/usr/share/kibana/node_modules/@kbn/lock-manager/src/lock_manager_client.js:272:12)
+kibana  |     at RetryOperation._fn (/usr/share/kibana/node_modules/p-retry/index.js:50:12)
+kibana  | [2026-01-09T18:13:26.173+00:00][INFO ][plugins.security.authentication] Performing login attempt with "basic" provider.
+kibana  | [2026-01-09T18:13:26.336+00:00][ERROR][plugins.security.authentication] Login attempt with "basic" provider failed: {"error":{"root_cause":[{"type":"security_exception","reason":"unable to authenticate user [elastic] for REST request [/_security/_authenticate]","header":{"WWW-Authenticate":["Basic realm=\"security\", charset=\"UTF-8\"","ApiKey"]}}],"type":"security_exception","reason":"unable to authenticate user [elastic] for REST request [/_security/_authenticate]","header":{"WWW-Authenticate":["Basic realm=\"security\", charset=\"UTF-8\"","ApiKey"]}},"status":401}
+kibana  | [2026-01-09T18:13:46.327+00:00][INFO ][plugins.fleet] Beginning fleet setup
+kibana  | [2026-01-09T18:13:46.328+00:00][INFO ][plugins.fleet] Cleaning old indices
+kibana  | [2026-01-09T18:13:46.399+00:00][WARN ][plugins.fleet] Fleet setup attempt 7 failed, will retry after backoff FleetEncryptedSavedObjectEncryptionKeyRequired: Agent binary source needs encrypted saved object api key to be set
+kibana  |     at DownloadSourceService.create (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:88:13)
+kibana  |     at DownloadSourceService.ensureDefault (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:235:25)
+kibana  |     at processTicksAndRejections (node:internal/process/task_queues:105:5)
+kibana  |     at createSetupSideEffects (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup.js:94:33)
+kibana  |     at awaitIfPending (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup_utils.js:35:20)
+kibana  |     at withLock (/usr/share/kibana/node_modules/@kbn/lock-manager/src/lock_manager_client.js:272:12)
+kibana  |     at RetryOperation._fn (/usr/share/kibana/node_modules/p-retry/index.js:50:12)
+kibana  | [2026-01-09T18:13:48.040+00:00][INFO ][plugins.security.authentication] Performing login attempt with "basic" provider.
+kibana  | [2026-01-09T18:13:49.470+00:00][INFO ][plugins.security.authentication] Login attempt with "basic" provider succeeded (requires redirect: true).
+kibana  | [2026-01-09T18:13:55.014+00:00][ERROR][plugins.streams] Error: Unable to create alerts client because the Encrypted Saved Objects plugin is missing encryption key. Please set xpack.encryptedSavedObjects.encryptionKey in the kibana.yml or use the bin/kibana-encryption-keys command.
+kibana  |     at Object.getRulesClientWithRequest (/usr/share/kibana/node_modules/@kbn/alerting-plugin/server/plugin.js:440:15)
+kibana  |     at AssetService.getClientWithRequest (/usr/share/kibana/node_modules/@kbn/streams-plugin/server/lib/streams/assets/asset_service.js:30:48)
+kibana  |     at processTicksAndRejections (node:internal/process/task_queues:105:5)
+kibana  |     at async Promise.all (index 1)
+kibana  |     at getScopedClients (/usr/share/kibana/node_modules/@kbn/streams-plugin/server/plugin.js:134:90)
+kibana  |     at handler (/usr/share/kibana/node_modules/@kbn/streams-plugin/server/routes/streams/management/route.js:109:9)
+kibana  |     at wrappedHandler (/usr/share/kibana/node_modules/@kbn/server-route-repository/src/register_routes.js:62:13)
+kibana  | [2026-01-09T18:13:55.177+00:00][ERROR][http] 500 Server Error
+kibana  | [2026-01-09T18:14:27.354+00:00][INFO ][plugins.fleet] Beginning fleet setup
+kibana  | [2026-01-09T18:14:27.355+00:00][INFO ][plugins.fleet] Cleaning old indices
+kibana  | [2026-01-09T18:14:27.408+00:00][WARN ][plugins.fleet] Fleet setup attempt 8 failed, will retry after backoff FleetEncryptedSavedObjectEncryptionKeyRequired: Agent binary source needs encrypted saved object api key to be set
+kibana  |     at DownloadSourceService.create (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:88:13)
+kibana  |     at DownloadSourceService.ensureDefault (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:235:25)
+kibana  |     at processTicksAndRejections (node:internal/process/task_queues:105:5)
+kibana  |     at createSetupSideEffects (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup.js:94:33)
+kibana  |     at awaitIfPending (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup_utils.js:35:20)
+kibana  |     at withLock (/usr/share/kibana/node_modules/@kbn/lock-manager/src/lock_manager_client.js:272:12)
+kibana  |     at RetryOperation._fn (/usr/share/kibana/node_modules/p-retry/index.js:50:12)
+kibana  | [2026-01-09T18:15:13.686+00:00][INFO ][plugins.securitySolution] Fetch risk engine metrics
+kibana  | [2026-01-09T18:15:13.704+00:00][INFO ][plugins.cloudSecurityPosture] Cloud Security telemetry: Accounts payload was sent successfully
+kibana  | [2026-01-09T18:15:13.734+00:00][INFO ][plugins.cloudSecurityPosture] Cloud Security telemetry: Resources payload was sent successfully
+kibana  | [2026-01-09T18:15:13.736+00:00][INFO ][plugins.cloudSecurityPosture] Cloud Security telemetry: Rules payload was sent successfully
+kibana  | [2026-01-09T18:15:13.792+00:00][INFO ][plugins.cloudSecurityPosture] Cloud Security telemetry: Cloud Accounts payload was sent successfully
+kibana  | [2026-01-09T18:15:13.815+00:00][ERROR][plugins.securitySolution] Error fetching value lists overview metrics: Cannot read properties of undefined (reading 'by_type')
+kibana  | [2026-01-09T18:15:13.840+00:00][ERROR][plugins.securitySolution] Error fetching value list items metrics: Cannot read properties of undefined (reading 'max_items_per_list')
+kibana  | [2026-01-09T18:15:13.847+00:00][INFO ][plugins.cloudSecurityPosture] Cloud Security telemetry: Alerts payload was sent successfully
+kibana  | [2026-01-09T18:15:13.964+00:00][INFO ][plugins.cloudSecurityPosture] Cloud Security telemetry: Installation payload was sent successfully
+kibana  | [2026-01-09T18:15:14.291+00:00][INFO ][plugins.cloudSecurityPosture] Cloud Security telemetry: Indices payload was sent successfully
+kibana  | [2026-01-09T18:15:14.391+00:00][INFO ][plugins.cloudSecurityPosture] Cloud Security telemetry: Muted Rules payload was sent successfully
+kibana  | [2026-01-09T18:15:19.769+00:00][INFO ][plugins.fleet] Beginning fleet setup
+kibana  | [2026-01-09T18:15:19.769+00:00][INFO ][plugins.fleet] Cleaning old indices
+kibana  | [2026-01-09T18:15:19.823+00:00][WARN ][plugins.fleet] Fleet setup attempt 9 failed, will retry after backoff FleetEncryptedSavedObjectEncryptionKeyRequired: Agent binary source needs encrypted saved object api key to be set
+kibana  |     at DownloadSourceService.create (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:88:13)
+kibana  |     at DownloadSourceService.ensureDefault (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/download_source.js:235:25)
+kibana  |     at processTicksAndRejections (node:internal/process/task_queues:105:5)
+kibana  |     at createSetupSideEffects (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup.js:94:33)
+kibana  |     at awaitIfPending (/usr/share/kibana/node_modules/@kbn/fleet-plugin/server/services/setup_utils.js:35:20)
+kibana  |     at withLock (/usr/share/kibana/node_modules/@kbn/lock-manager/src/lock_manager_client.js:272:12)
+kibana  |     at RetryOperation._fn (/usr/share/kibana/node_modules/p-retry/index.js:50:12)

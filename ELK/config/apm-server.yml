@@ -1,0 +1,20 @@
+apm-server:
+  host: "0.0.0.0:8200"
+  # Optional: require a secret token for agents
+  # secret_token: "YOUR_SECRET_TOKEN"
+
+output.elasticsearch:
+  hosts: ["http://elasticsearch:9200"]
+  username: "elastic"
+  password: "changeme"
+
+setup.kibana:
+  host: "http://kibana:5601"
+
+# Enable monitoring to see server metrics in Kibana (optional)
+monitoring:
+  enabled: true
+  elasticsearch:
+    hosts: ["http://elasticsearch:9200"]
+    username: "elastic"
+    password: "changeme"
