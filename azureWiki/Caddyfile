@@ -1,0 +1,11 @@
+{$DOMAIN} {
+	reverse_proxy wikijs:3000
+
+	encode zstd gzip
+
+	header {
+		X-Content-Type-Options nosniff
+		X-Frame-Options DENY
+		Referrer-Policy no-referrer
+	}
+}

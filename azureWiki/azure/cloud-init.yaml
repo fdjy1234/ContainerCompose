@@ -1,0 +1,18 @@
+#cloud-config
+package_update: true
+package_upgrade: true
+
+packages:
+  - ca-certificates
+  - curl
+  - gnupg
+
+runcmd:
+  - [ sh, -lc, "mkdir -p /opt/wikijs" ]
+  - [ sh, -lc, "curl -fsSL https://get.docker.com | sh" ]
+  - [ sh, -lc, "usermod -aG docker azureuser" ]
+  - [ sh, -lc, "systemctl enable docker" ]
+  - [ sh, -lc, "systemctl start docker" ]
+  - [ sh, -lc, "apt-get install -y docker-compose-plugin" ]
+
+final_message: "cloud-init finished. Upload project files to /opt/wikijs and run: docker compose up -d"
