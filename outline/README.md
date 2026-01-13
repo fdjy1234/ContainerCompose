@@ -112,3 +112,16 @@ docker-compose exec -T postgres psql -U outline outline < backup.sql
 docker-compose pull
 docker-compose up -d
 ```
+## Google
+      - OIDC_AUTH_URI=https://accounts.google.com/o/oauth2/v2/auth
+      - OIDC_TOKEN_URI=https://oauth2.googleapis.com/token
+      - OIDC_USERINFO_URI=https://openidconnect.googleapis.com/v1/userinfo
+      - OIDC_DISPLAY_NAME=Google
+
+## GitHub
+      - OIDC_AUTH_URI=https://github.com/login/oauth/authorize
+      - OIDC_TOKEN_URI=https://github.com/login/oauth/access_token
+      - OIDC_USERINFO_URI=https://api.github.com/user
+      - OIDC_SCOPES=read:user user:email
+      - OIDC_USERNAME_CLAIM=name
+      - OIDC_DISPLAY_NAME=GitHub
