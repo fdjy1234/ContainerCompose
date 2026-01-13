@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres:16-alpine
+    image: postgres:17-alpine
     container_name: wikijs-db
     restart: unless-stopped
     environment:
@@ -23,7 +23,7 @@ services:
       db:
         condition: service_healthy
     ports:
-      - "3000:3000"
+      - "3300:3000"
     environment:
       DB_TYPE: postgres
       DB_HOST: db
@@ -31,8 +31,12 @@ services:
       DB_USER: ${POSTGRES_USER}
       DB_PASS: ${POSTGRES_PASSWORD}
       DB_NAME: ${POSTGRES_DB}
+      OFFLINE: "true"
+      APP_LANG: "zh-tw"
     volumes:
       - wiki-data:/wiki/data
+      - ./wiki/data/sideload:/wiki/data/sideload:ro
+      - ./config.yml:/wiki/config.yml:ro
 
   # Optional: reverse proxy + HTTPS (recommended for Azure VM).
   # Enable it with: docker compose --profile proxy up -d
