@@ -1,0 +1,43 @@
+graph LR
+    subgraph User_Layer [使用者介面層]
+        U[員工 / 使用者]
+    end
+
+    subgraph Comm_Layer [通訊與入口層]
+        MM[Mattermost]
+        MBot[AnythingLLM Bot / Webhook]
+    end
+
+    subgraph Knowledge_Layer [知識儲存層]
+        WIKI[Wiki.js - 技術文件]
+        OUT[Outline - 協作筆記]
+        GIT[Git Repo / Gitea]
+    end
+
+    subgraph Intelligence_Layer [AI 運算與 RAG 中樞]
+        AL[AnythingLLM]
+        VDB[(Vector DB - 內建)]
+    end
+
+    subgraph Model_Layer [本地模型層]
+        OLL[Ollama - Llama3 / Gemma]
+    end
+
+    %% 資料流向
+    U <--> MM
+    MM <--> MBot
+    MBot <--> AL
+
+    U --> WIKI
+    U --> OUT
+
+    WIKI -- "Git Storage Sync (Markdown)" --> GIT
+    GIT -- "Connector / Scraping" --> AL
+    OUT -- "API / Document Export" --> AL
+    
+    AL -- "Embedding & Retrieval" --> VDB
+    AL -- "Local Inference Request" --> OLL
+
+    %% 基礎設施說明
+    classDef docker fill:#2496ed,stroke:#fff,stroke-width:2px,color:#fff;
+    class MM,WIKI,OUT,AL,OLL,GIT docker;
