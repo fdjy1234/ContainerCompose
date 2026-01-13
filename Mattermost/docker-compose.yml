@@ -1,0 +1,33 @@
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: mattermost
+      POSTGRES_USER: mmuser
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_HOST_AUTH_METHOD: trust
+    volumes:
+      - ./volumes/postgres:/var/lib/postgresql/data
+    networks:
+      - mattermost
+
+  app:
+    image: ${MATTERMOST_IMAGE}
+    restart: unless-stopped
+    ports:
+      - "8065:8065"
+    environment:
+      MM_SQLSETTINGS_DRIVERNAME: postgres
+      MM_SQLSETTINGS_DATASOURCE: postgres://mmuser:${POSTGRES_PASSWORD}@db:5432/mattermost?sslmode=disable&connect_timeout=10
+      MM_SERVICESETTINGS_SITEURL: http://localhost:8065
+    volumes:
+      - ./volumes/app/mattermost:/mattermost/data
+    depends_on:
+      - db
+    networks:
+      - mattermost
+
+networks:
+  mattermost:
+    driver: bridge
