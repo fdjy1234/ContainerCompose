@@ -1,0 +1,2 @@
+POSTGRES_PASSWORD=mmpass123
+MATTERMOST_IMAGE=mattermost/mattermost-team-edition:latest
